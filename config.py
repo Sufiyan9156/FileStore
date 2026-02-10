@@ -27,7 +27,7 @@ DB_NAME = os.getenv("DB_NAME", "yato")
 
 # Force Subscribe Channels
 # format: [channel_id, request_enabled, timer_minutes]
-FSUBS = [[-1003016571084, True, 10]]
+FSUBS = [[-1002517849305, True, 10]]
 
 # ✅ FIXED — NO EMPTY VALUE
 DB_CHANNEL = int(os.getenv("DB_CHANNEL"))
